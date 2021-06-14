@@ -27,13 +27,13 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/FirstBuild.loader.js";
+      var loaderUrl = buildUrl + "/eTurboV1.2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/FirstBuild.data",
-        frameworkUrl: buildUrl + "/FirstBuild.framework.js",
-        codeUrl: buildUrl + "/FirstBuild.wasm",
+        dataUrl: buildUrl + "/eTurboV1.2.data",
+        frameworkUrl: buildUrl + "/eTurboV1.2.framework.js",
+        codeUrl: buildUrl + "/eTurboV1.2.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "An3Apps",
         productName: "RacingGame",
         productVersion: "0.1",
       };
@@ -65,7 +65,6 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/FirstBuild.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
